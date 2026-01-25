@@ -30,6 +30,7 @@ MANIFEST
 /datasets/**
 !/datasets/.gitkeep
 !/datasets/README.md
+!/datasets/*.dvc
 .dvc/tmp/
 .dvc/cache/
 
