@@ -2,3 +2,4 @@
     remote = azure_storage
 ['remote "azure_storage"']
     url = azure://dvc/data
+    account_name = imagedataworks0303650389
