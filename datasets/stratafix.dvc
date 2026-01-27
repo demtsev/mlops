@@ -1,0 +1,6 @@
+outs:
+- md5: a4022366c08096207115f70f07d6d7c1.dir
+  size: 64504236
+  nfiles: 60
+  hash: md5
+  path: stratafix
