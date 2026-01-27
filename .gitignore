@@ -1,0 +1,35 @@
+# Environment variables
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+
+# DVC
+/datasets/intracorporeal-knot/default/train/images/*
+/datasets/intracorporeal-knot/default/val/images/*
+/datasets/intracorporeal-knot/default/test/images/*
+/datasets/intracorporeal-knot/piercing/train/images/*
+/datasets/stratafix/default/train/images/*
+/datasets/stratafix/default/val/images/*
+/datasets/stratafix/default/test/images/*
+/datasets/stratafix/suturing/train/images/*
+/datasets/stratafix/suturing/val/images/*
+/datasets/stratafix/suturing/test/images/*
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+/datasets
