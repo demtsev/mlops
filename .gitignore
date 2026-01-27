@@ -32,4 +32,12 @@ ENV/
 # OS
 .DS_Store
 Thumbs.db
-/datasets
+
+# Dataset content (tracked by DVC)
+/datasets/intracorporeal-knot/**/*
+!/datasets/intracorporeal-knot/**/*.txt
+/datasets/stratafix/**/*
+!/datasets/stratafix/**/*.txt
+
+# But keep the .dvc files
+!*.dvc
